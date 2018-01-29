@@ -1,7 +1,7 @@
 {
-  "name": "machinepack-fs",
+  "name": "machinepack-static-fs",
   "version": "12.0.1",
-  "description": "Work with the local filesystem; list files, write files, etc.",
+  "description": "Static loading version - for Webpack. Work with the local filesystem; list files, write files, etc.",
   "scripts": {
     "custom-tests": "mocha test/** -R spec",
     "lint": "node ./node_modules/eslint/bin/eslint . --max-warnings=0",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "fs-extra": "0.30.0",
-    "machine": "^15.0.0-12",
+    "machine-static": "^15.0.0-12",
     "walker": "1.0.7"
   },
   "devDependencies": {
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mikermcneil/machinepack-fs.git"
+    "url": "https://github.com/conduit-innovation/machinepack-static-fs.git"
   },
   "machinepack": {
     "friendlyName": "Filesystem",
@@ -52,6 +52,5 @@
       "write-stream",
       "rmrf-sync"
     ],
-    "testsUrl": "https://travis-ci.org/mikermcneil/machinepack-fs"
   }
 }
