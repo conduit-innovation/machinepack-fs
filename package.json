@@ -51,6 +51,6 @@
       "read-stream",
       "write-stream",
       "rmrf-sync"
-    ],
+    ]
   }
 }
